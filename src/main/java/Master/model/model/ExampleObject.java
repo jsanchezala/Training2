@@ -1,4 +1,4 @@
-package model;
+package Master.model.model;
 
 public class ExampleObject {
 

@@ -1,15 +1,29 @@
-package controllers;
+package Master.model.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import model.ExampleObject;
+import Master.model.model.ExampleObject;
+import Master.model.model.Producto;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.HashMap;
 
 @Controller
 public class ExampleController {
+
+    HashMap<Integer,Producto>  listaProductos = new HashMap<>();
+
+    @GetMapping("/list")
+    public String list(Model model){
+
+        Producto producto = new Producto("H33", "Botas", "Botas Futbol", 3);
+        listaProductos.put(1,producto);
+
+        model.addAttribute("listaProductos", listaProductos);
+        return "list";
+    }
 
     @GetMapping("/text")
     public String text(Model model){

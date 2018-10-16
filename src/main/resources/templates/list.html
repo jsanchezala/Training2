@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product List</title>
+</head>
+<body>
+<th>
+<tr th:each="Producto : ${listaProductos}">
+    <td> <span th:utext="${Producto.value.getNombre()}" /></td>
+</tr>
+</th>
+</body>
+</html>
