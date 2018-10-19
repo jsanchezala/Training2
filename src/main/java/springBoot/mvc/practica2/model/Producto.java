@@ -1,25 +1,19 @@
-package Master.model.model;
+package springBoot.mvc.practica2.model;
 
 public class Producto {
 
-    private String código;
-    public String nombre;
+    private String codigo;
+    private String nombre;
     private String descripcion;
     private int precio;
 
-    public Producto(String código, String nombre, String descripcion, int precio) {
-        this.código = código;
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.precio = precio;
+
+    public String getCodigo() {
+        return codigo;
     }
 
-    public String getCódigo() {
-        return código;
-    }
-
-    public void setCódigo(String código) {
-        this.código = código;
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
     }
 
     public String getNombre() {
@@ -46,3 +40,5 @@ public class Producto {
         this.precio = precio;
     }
 }
+
+

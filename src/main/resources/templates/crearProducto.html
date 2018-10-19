@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Practica2</title>
+</head>
+<body>
+<form action="#" th:action="@{/newProduct}" th:object="${producto}" method="post">
+	<p>Codigo: <input type="text" th:field="*{codigo}" /></p>
+	<p>Nombre: <input type="text" th:field="*{nombre}" /></p>
+	<p>Descripcion: <input type="text" th:field="*{descripcion}" /></p>
+	<p>Precio: <input type="text" th:field="*{precio}" /></p>
+	<p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+</form>
+</body>
+</html>
