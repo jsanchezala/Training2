@@ -7,8 +7,13 @@
 <body>
 <th>
 <tr th:each="Producto : ${listaProductos}">
-    <td> <a th:href="@{'/show/' + ${Producto.key}}" th:utext="${Producto.value.getNombre()}" ></a></td>
+    <td> <a th:href="@{'/show/' + ${Producto.key}}" th:utext="${Producto.value.getNombre()}" ></a>
+        <a href="#" th:href="${'/delete/' + Producto.key}">Eliminar</a>
+    </td><br>
 </tr>
 </th>
+<br>
+<br>
+<a th:href="@{'/'}">Return</a>
 </body>
 </html>

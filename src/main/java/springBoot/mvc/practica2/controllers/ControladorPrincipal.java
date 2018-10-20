@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import springBoot.mvc.practica2.model.Producto;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import java.util.Arrays;
-import java.util.List;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.HashMap;
 
 @Controller
@@ -44,6 +46,11 @@ public class ControladorPrincipal {
         return "mostrarProducto";
     }
 
+    @RequestMapping(value = "/delete/{id}")
+    public String remove(@PathVariable Integer id){
+        listaProductos.remove(id);
+        return "redirect:/list";
+    }
 
     @GetMapping(value = "/list")
     public String getList(Model model) {
