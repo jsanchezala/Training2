@@ -5,11 +5,13 @@
 	<title>Practica2</title>
 </head>
 <body>
+<h1 th:text="#{form_title}">NUEVO PRODUCTO</h1>
+<br>
 <form action="#" th:action="@{/newProduct}" th:object="${producto}" method="post">
-	<p th:text="#{form_product_code}+': '">Codigo: <input th:type="text" th:field="*{codigo}" /></p>
-	<p th:text="#{form_product_name}+': '">Nombre: <input type="text" th:field="*{nombre}" /></p>
-	<p th:text="#{form_product_description}+': '">Descripcion: <input type="text" th:field="*{descripcion}" /></p>
-	<p th:text="#{form_product_price}+': '">Precio: <input type="text" th:field="*{precio}" /></p>
+	<p> <label th:text="#{form_product_code}+': '"/><input th:type="text" th:field="*{codigo}" /></p>
+	<p><label th:text="#{form_product_name}+': '"/> <input type="text" th:field="*{nombre}" /></p>
+	<p> <label th:text="#{form_product_description}+': '"/><input type="text" th:field="*{descripcion}" /></p>
+	<p> <label th:text="#{form_product_price}+': '"/><input type="text" th:field="*{precio}" /></p>
 	<br>
 	<input type="submit" value="Submit" /> <input type="reset" value="Reset" />
 </form>
