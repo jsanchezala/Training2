@@ -5,11 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-<h1>WELCOME TO THE SHOP</h1>
-<a th:href="@{/newProduct}">Nuevo Producto</a>
+<h1 th:text="#{welcome}">WELCOME TO THE SHOP</h1>
+<a th:text="#{nuevo_producto}" th:href="@{/newProduct}">Nuevo Producto</a>
 <br>
 <br>
 <br>
-<a th:href="@{/list}">Lista Productos</a>
+<a th:text="#{lista_producto}" th:href="@{/list}">Lista Productos</a>
 </body>
 </html>

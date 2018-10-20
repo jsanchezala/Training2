@@ -2,9 +2,10 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Product List</title>
+    <title th:text="#{cabecera_productos}">Product List</title>
 </head>
 <body>
+<h1 th:text="#{titulo_productos}">Product List</h1>
 <th>
 <tr th:each="Producto : ${listaProductos}">
     <td> <a th:href="@{'/show/' + ${Producto.key}}" th:utext="${Producto.value.getNombre()}" ></a>

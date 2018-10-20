@@ -6,10 +6,10 @@
 </head>
 <body>
 <h1>Result</h1>
-<p th:text="'Codigo: ' + ${Producto.codigo}" />
-<p th:text="'Nombre: ' + ${Producto.nombre}" />
-<p th:text="'Descripcion: ' + ${Producto.descripcion}" />
-<p th:text="'Precio: ' + ${Producto.precio}" />
+<p th:text="#{form_product_code} + ': ' + ${Producto.codigo}" />
+<p th:text="#{form_product_name} + ': ' + ${Producto.nombre}" />
+<p th:text="#{form_product_description} + ': '+ ${Producto.descripcion}" />
+<p th:text="#{form_product_price} + ': ' + ${Producto.precio}" />
 <a href="/list">Volver</a>
 </body>
 </html>

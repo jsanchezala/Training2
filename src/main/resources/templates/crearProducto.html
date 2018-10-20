@@ -6,11 +6,12 @@
 </head>
 <body>
 <form action="#" th:action="@{/newProduct}" th:object="${producto}" method="post">
-	<p>Codigo: <input type="text" th:field="*{codigo}" /></p>
-	<p>Nombre: <input type="text" th:field="*{nombre}" /></p>
-	<p>Descripcion: <input type="text" th:field="*{descripcion}" /></p>
-	<p>Precio: <input type="text" th:field="*{precio}" /></p>
-	<p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+	<p th:text="#{form_product_code}+': '">Codigo: <input th:type="text" th:field="*{codigo}" /></p>
+	<p th:text="#{form_product_name}+': '">Nombre: <input type="text" th:field="*{nombre}" /></p>
+	<p th:text="#{form_product_description}+': '">Descripcion: <input type="text" th:field="*{descripcion}" /></p>
+	<p th:text="#{form_product_price}+': '">Precio: <input type="text" th:field="*{precio}" /></p>
+	<br>
+	<input type="submit" value="Submit" /> <input type="reset" value="Reset" />
 </form>
 </body>
 </html>
