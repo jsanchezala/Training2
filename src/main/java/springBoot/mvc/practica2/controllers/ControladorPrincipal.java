@@ -7,10 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import springBoot.mvc.practica2.model.Producto;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+
 import java.util.HashMap;
 
 @Controller
@@ -32,7 +30,7 @@ public class ControladorPrincipal {
     @GetMapping("/show/{id}")
     public String mostrarProducto(Model model, @PathVariable Integer id) {
         model.addAttribute("Producto", listaProductos.get(id));
-        return "mostrarProducto2";
+        return "mostrarProductoListaProductos";
     }
 
     @PostMapping("/newProduct")
@@ -43,7 +41,7 @@ public class ControladorPrincipal {
         model.addAttribute("precio", producto.getPrecio());*/
         variable++;
         listaProductos.put(variable,producto);
-        return "mostrarProducto";
+        return "mostrarProductoAnadidoCorrecto";
     }
 
     @RequestMapping(value = "/delete/{id}")

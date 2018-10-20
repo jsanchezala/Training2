@@ -2,10 +2,10 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title th:text="#{cabecera_productos}">Product List</title>
+    <title th:text="#{head_products}">Product List</title>
 </head>
 <body>
-<h1 th:text="#{titulo_productos}">Product List</h1>
+<h1 th:text="#{title_products}">Product List</h1>
 <th>
 <tr th:each="Producto : ${listaProductos}">
     <td> <a th:href="@{'/show/' + ${Producto.key}}" th:utext="${Producto.value.getNombre()}" ></a>
@@ -15,6 +15,6 @@
 </th>
 <br>
 <br>
-<a th:href="@{'/'}">Return</a>
+<a th:href="@{'/'}" th:utext="#{return}">Return</a>
 </body>
 </html>
