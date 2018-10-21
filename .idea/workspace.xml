@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6250c2d6-431c-40fb-addd-3c90f3e24ebd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_es.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,7 +83,7 @@
           <entry key="class" value="1" />
           <entry key="html" value="5" />
           <entry key="java" value="7" />
-          <entry key="properties" value="3" />
+          <entry key="properties" value="5" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
@@ -92,7 +92,7 @@
           <entry key="CLASS" value="1" />
           <entry key="HTML" value="5" />
           <entry key="JAVA" value="7" />
-          <entry key="Properties" value="3" />
+          <entry key="Properties" value="5" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -101,7 +101,7 @@
           <entry key="html" value="551" />
           <entry key="java" value="414" />
           <entry key="properties" value="618" />
-          <entry key="txt" value="171" />
+          <entry key="txt" value="197" />
           <entry key="xml" value="24" />
         </counts>
       </usages-collector>
@@ -109,7 +109,7 @@
         <counts>
           <entry key="HTML" value="551" />
           <entry key="JAVA" value="414" />
-          <entry key="PLAIN_TEXT" value="171" />
+          <entry key="PLAIN_TEXT" value="197" />
           <entry key="Properties" value="618" />
           <entry key="XML" value="24" />
         </counts>
@@ -176,11 +176,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="170">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
+          <provider editor-type-id="ResourceBundle" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_es.properties">
+          <provider editor-type-id="ResourceBundle" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -227,12 +247,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/listaProductos.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/mostrarProducto.html" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/messages_es.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/mostrarProductoListaProductos.html" />
         <option value="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/configurations/InternationalizationConfiguration.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/Practica2Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages_es.properties" />
       </list>
     </option>
   </component>
@@ -283,13 +303,20 @@
             <path>
               <item name="Training2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Training2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Training2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Training2" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Training2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Training2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +337,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540139024920" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540139078643" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -390,7 +417,7 @@
       <workItem from="1539982011505" duration="11437000" />
       <workItem from="1540045236398" duration="4012000" />
       <workItem from="1540061620903" duration="7697000" />
-      <workItem from="1540133498447" duration="3078000" />
+      <workItem from="1540133498447" duration="3865000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Añadido valor&quot;">
       <created>1539982147277</created>
@@ -434,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540073377007</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;Corregido Servidor Externo&quot;">
+      <created>1540139067790</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540139067790</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -443,7 +477,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33249000" />
+    <option name="totallyTimeSpent" value="34036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,7 +489,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="948" y="0" width="970" height="1047" extended-state="1" />
+    <frame x="948" y="0" width="970" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31208792" />
@@ -468,7 +502,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Learn" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.19088937" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -481,7 +515,7 @@
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32968238" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32968238" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32968238" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.5618839" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.5618839" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -541,7 +575,8 @@
     <MESSAGE value="&quot;Añadida Parte Opcional International y corregidos fallos&quot;" />
     <MESSAGE value="&quot;Añadido todos los mensajes correctamente&quot;" />
     <MESSAGE value="&quot;Añadido servido externo&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Añadido servido externo&quot;" />
+    <MESSAGE value="&quot;Corregido Servidor Externo&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Corregido Servidor Externo&quot;" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -578,6 +613,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#2#13#0" expanded="true" />
+            <element signature="e#2#12#0" expanded="true" />
+            <element signature="e#2#19#0" expanded="true" />
+            <element signature="e#2#19#0" expanded="true" />
+            <element signature="e#2#26#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
+            <element signature="e#2#15#0" expanded="true" />
+            <element signature="e#2#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,6 +642,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#2#12#0" expanded="true" />
+            <element signature="e#2#9#0" expanded="true" />
+            <element signature="e#2#13#0" expanded="true" />
+            <element signature="e#2#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,22 +655,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="41" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_es.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
-      <provider editor-type-id="ResourceBundle" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#2#19#0" expanded="true" />
+            <element signature="e#2#19#0" expanded="true" />
+            <element signature="e#2#19#0" expanded="true" />
+            <element signature="e#2#26#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
+            <element signature="e#2#8#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -627,6 +670,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#2#15#0" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
+            <element signature="e#2#8#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -687,8 +735,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_es.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
