@@ -9,7 +9,7 @@
 <th>
 <tr th:each="Producto : ${listaProductos}">
     <td> <a th:href="@{'/show/' + ${Producto.key}}" th:utext="${Producto.value.getNombre()}" ></a>
-        <a href="#" th:href="${'/delete/' + Producto.key}">Eliminar</a>
+        <a href="#" th:utext="#{Delete}" th:href="${'/delete/' + Producto.key}">Eliminar</a>
     </td><br>
 </tr>
 </th>
