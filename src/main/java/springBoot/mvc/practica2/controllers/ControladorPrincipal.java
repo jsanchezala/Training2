@@ -36,9 +36,9 @@ public class ControladorPrincipal {
         return "crearProducto";
     }
 
-    @GetMapping("/show/{id}")
-    public String mostrarProducto(Model model, @PathVariable Integer id) {
-        model.addAttribute("Producto", listaProductos.get(id));
+    @GetMapping("/show/{descripcion}")
+    public String mostrarProducto(Model model, @PathVariable String descripcion) {
+        model.addAttribute("Producto", productRepository.findByDescripcion(descripcion));
         return "mostrarProductoListaProductos";
     }
 
