@@ -1,20 +1,29 @@
 package springBoot.mvc.practica2.controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import springBoot.mvc.practica2.model.Producto;
+import springBoot.mvc.practica2.repositories.ProductRepository;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import springBoot.mvc.practica2.repositories.ProductRepository;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 @Controller
 public class ControladorPrincipal {
     private Integer variable = 0;
-    private HashMap<Integer,Producto>  listaProductos = new HashMap<>();
+    //private HashMap<String,Producto>  listaProductos = new HashMap<>();
+    List<Producto> listaProductos = new ArrayList<>();
+
+    @Autowired
+    private ProductRepository productRepository;
 
     @GetMapping("/")
     public String select() {
@@ -39,20 +48,23 @@ public class ControladorPrincipal {
         model.addAttribute("nombre", producto.getNombre());
         model.addAttribute("descripcion", producto.getDescripcion());
         model.addAttribute("precio", producto.getPrecio());*/
-        variable++;
-        listaProductos.put(variable,producto);
+
+        productRepository.save(producto);
         return "mostrarProductoAnadidoCorrecto";
     }
 
-    @RequestMapping(value = "/delete/{id}")
-    public String remove(@PathVariable Integer id){
-        listaProductos.remove(id);
+    @RequestMapping(value = "/delete/{producto}")
+    public String remove(@PathVariable Producto producto){
+        productRepository.delete(producto);
+        //listaProductos.remove(id);
         return "redirect:/list";
     }
 
     @GetMapping(value = "/list")
     public String getList(Model model) {
-        model.addAttribute("listaProductos", listaProductos);
+
+        //listaProductos = productRepository.findAll();
+        model.addAttribute("listaProductos", productRepository.findAll());
         return "listaProductos";
     }
 

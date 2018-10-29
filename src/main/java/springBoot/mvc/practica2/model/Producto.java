@@ -2,22 +2,14 @@ package springBoot.mvc.practica2.model;
 
 import org.springframework.data.annotation.Id;
 
-import java.math.BigDecimal;
-
 public class Producto {
 
     @Id
     private String codigo;
     private String nombre;
     private String descripcion;
-    private BigDecimal precio;
+    private Integer precio;
 
-    public Producto(String codigo, String nombre, String descripcion, BigDecimal precio) {
-        this.codigo = codigo;
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.precio = precio;
-    }
 
     public Producto() {
 
@@ -47,11 +39,11 @@ public class Producto {
         this.descripcion = descripcion;
     }
 
-    public BigDecimal getPrice() {
+    public Integer getPrecio() {
         return precio;
     }
 
-    public void setPrice(BigDecimal precio) {
+    public void setPrecio(Integer precio) {
         this.precio = precio;
     }
 

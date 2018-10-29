@@ -8,8 +8,8 @@
 <h1 th:text="#{title_products}">Product List</h1>
 <th>
 <tr th:each="Producto : ${listaProductos}">
-    <td> <a th:href="@{'/show/' + ${Producto.key}}" th:utext="${Producto.value.getNombre()}" ></a>
-        <a href="#" th:utext="#{Delete}" th:href="${'/delete/' + Producto.key}">Eliminar</a>
+    <td> <a th:href="@{'/show/' + ${Producto}}" th:utext="${Producto.getNombre()}" ></a>
+        <a href="#" th:utext="#{Delete}" th:href="${'/delete/' + Producto}">Eliminar</a>
     </td><br>
 </tr>
 </th>

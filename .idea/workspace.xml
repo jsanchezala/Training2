@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6250c2d6-431c-40fb-addd-3c90f3e24ebd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/components/DatabaseLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/repositories/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/components/DatabaseLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/components/DatabaseLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/controllers/ControladorPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/controllers/ControladorPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Master/model/MvcThymeleafApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Master/model/controllers/ExampleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Master/model/model/ExampleObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Master/model/model/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/listaProductos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/listaProductos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/newProduct.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/text.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,7 +47,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="html" value="4" />
+          <entry key="html" value="6" />
           <entry key="iml" value="1" />
           <entry key="java" value="8" />
           <entry key="properties" value="1" />
@@ -57,7 +56,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="6" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="8" />
           <entry key="Properties" value="1" />
@@ -65,16 +64,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="153" />
-          <entry key="java" value="511" />
+          <entry key="html" value="171" />
+          <entry key="java" value="719" />
           <entry key="properties" value="13" />
+          <entry key="txt" value="25" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="153" />
-          <entry key="JAVA" value="511" />
+          <entry key="HTML" value="171" />
+          <entry key="JAVA" value="719" />
+          <entry key="PLAIN_TEXT" value="25" />
           <entry key="Properties" value="13" />
           <entry key="XML" value="11" />
         </counts>
@@ -134,8 +135,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/controllers/ControladorPrincipal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="125">
+              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,15 +158,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="136" column="5" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -174,8 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/repositories/ProductRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,10 +181,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/components/DatabaseLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
+            <state relative-caret-position="132">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/listaProductos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#2#15#0" expanded="true" />
+                <element signature="e#2#16#0" expanded="true" />
+                <element signature="e#2#8#0" expanded="true" />
+                <element signature="e#2#8#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/crearProducto.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" column="95" selection-start-line="12" selection-start-column="89" selection-end-line="12" selection-end-column="95" />
+              <folding>
+                <element signature="e#2#13#0" expanded="true" />
+                <element signature="e#2#12#0" expanded="true" />
+                <element signature="e#2#19#0" expanded="true" />
+                <element signature="e#2#19#0" expanded="true" />
+                <element signature="e#2#26#0" expanded="true" />
+                <element signature="e#2#20#0" expanded="true" />
+                <element signature="e#2#15#0" expanded="true" />
+                <element signature="e#2#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,8 +227,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/model/Producto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#711#712#0" expanded="true" />
                 <element signature="e#739#740#0" expanded="true" />
@@ -220,21 +249,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages_es.properties">
-          <provider editor-type-id="ResourceBundle" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -274,10 +293,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Master/model/model/Producto.java" />
         <option value="$PROJECT_DIR$/src/main/java/Master/model/controllers/ExampleController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/list.html" />
-        <option value="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/controllers/ControladorPrincipal.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/mostrarProducto2.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/crearProducto.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/listaProductos.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/mostrarProducto.html" />
         <option value="$PROJECT_DIR$/src/main/resources/messages_en.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
@@ -287,9 +304,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/messages_es.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/repositories/ProductRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/components/DatabaseLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/model/Producto.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/controllers/ControladorPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/listaProductos.html" />
       </list>
     </option>
   </component>
@@ -442,7 +461,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540837131339" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540839857682" />
     <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Escritorio/Universidad/Ingenería Web y Computación en la nube/Prácticas/examples-master/springboot-data-mongo" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -527,7 +546,7 @@
       <workItem from="1540045236398" duration="4012000" />
       <workItem from="1540061620903" duration="7697000" />
       <workItem from="1540133498447" duration="4168000" />
-      <workItem from="1540836542419" duration="495000" />
+      <workItem from="1540836542419" duration="2747000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Añadido valor&quot;">
       <created>1539982147277</created>
@@ -585,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540140503787</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;Añadido parte MongoDB&quot;">
+      <created>1540837173965</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540837173966</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -594,7 +620,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34834000" />
+    <option name="totallyTimeSpent" value="37086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -631,8 +657,8 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.33296824" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32968238" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32968238" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32968238" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.23278688" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.52131146" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -694,7 +720,8 @@
     <MESSAGE value="&quot;Añadido servido externo&quot;" />
     <MESSAGE value="&quot;Corregido Servidor Externo&quot;" />
     <MESSAGE value="&quot;Corregido errores mensajes&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Corregido errores mensajes&quot;" />
+    <MESSAGE value="&quot;Añadido parte MongoDB&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Añadido parte MongoDB&quot;" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -717,13 +744,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/list.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Master/model/MvcThymeleafApplication.java" />
     <entry file="file://$PROJECT_DIR$/Training2.iml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/crearProducto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51" />
@@ -747,18 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="41" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/listaProductos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#2#15#0" expanded="true" />
-            <element signature="e#2#16#0" expanded="true" />
-            <element signature="e#2#8#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,46 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/controllers/ControladorPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/components/DatabaseLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="97" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/model/Producto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/repositories/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/Practica2Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -874,6 +842,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/crearProducto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="95" selection-start-line="12" selection-start-column="89" selection-end-line="12" selection-end-column="95" />
+          <folding>
+            <element signature="e#2#13#0" expanded="true" />
+            <element signature="e#2#12#0" expanded="true" />
+            <element signature="e#2#19#0" expanded="true" />
+            <element signature="e#2#19#0" expanded="true" />
+            <element signature="e#2#26#0" expanded="true" />
+            <element signature="e#2#20#0" expanded="true" />
+            <element signature="e#2#15#0" expanded="true" />
+            <element signature="e#2#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/model/Producto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/components/DatabaseLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/controllers/ControladorPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/springBoot/mvc/practica2/repositories/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/listaProductos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#2#15#0" expanded="true" />
+            <element signature="e#2#16#0" expanded="true" />
+            <element signature="e#2#8#0" expanded="true" />
+            <element signature="e#2#8#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
